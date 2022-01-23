@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "test_celery"
+version = "0.0.1"
+description = "Testing the use of Celery"
+authors = ["Richard <kasonde.nsama@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+celery = "^5.2.3"
+redis = "^4.1.1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

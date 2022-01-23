@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  redis_store:
+    container_name: redis_store
+    image: redis:6.2.6-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - ./.db_data:/data
